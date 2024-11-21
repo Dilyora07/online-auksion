@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Bosh sahifa</a></li>
+                <li><a href="register.html">Ro'yxatdan o'tish</a></li>
+                <li><a href="login.html">Kirish</a></li>
+                <li><a href="contact.html" class="active">Aloqa</a></li>
+                <li><a href="feedback.html">Izohlar</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="content">
+        <h1>Biz bilan bog'lanish</h1>
+        <p>Sizdan eshitishni istaymiz! Bog'lanish uchun quyidagi shaklni to'ldiring.</p>
+        <form>
+            <label for="name">Ismingiz:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Habaringiz:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Habarni yuborish</button>
+        </form>
+        <p>Shuningdek, biz bilan bog'lanishingiz mumkin<a href="mailto:support@auction.com">support@auction.com</a>.</p>
+    </main>
+</body>
+</html>

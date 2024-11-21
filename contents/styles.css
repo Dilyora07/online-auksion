@@ -1,0 +1,135 @@
+/* Umumiy uslublar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    background-color: #f4f4f9;
+}
+
+
+/* Asosiy kontent maydoni */
+.content {
+    padding: 20px;
+    margin-left: 410px;
+}
+
+
+.content h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Auction qismlari */
+.featured {
+    margin-top: 30px;
+}
+
+.auction-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #575757;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+}
+.content> img{
+    height: 400px;
+    width: 700px;
+}
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav ul li {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    display: block;
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a.active {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+form input, form textarea, form select, form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #575757;
+}
+
+button {
+    background-color: aqua;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 15px;
+}
